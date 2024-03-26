@@ -1,4 +1,2 @@
 #!/usr/bin/env bash
-python jem/jemdoc.py index.jemdoc
-python jem/jemdoc.py courses.jemdoc
-python jem/jemdoc.py experiences.jemdoc
+python jem/jemdoc.py index.jemdoc courses.jemdoc experiences.jemdoc projects.jemdoc publications.jemdoc 
