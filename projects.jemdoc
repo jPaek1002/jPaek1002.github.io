@@ -2,6 +2,6 @@
 == Projects 
 ~~~
 == ECE 276A: Sensing and Estimation in Robotics (Winter 2024)
-- Quaternion based Orientation Tracking [projects/ECE276A_PR1 report]
-- LiDAR based SLAM and Factor Graph Optimization [projects/ECE276A_PR2 report]
-- Visual Inertial SLAM [projects/ECE276A_PR3 report]
+- Quaternion based Orientation Tracking [projects/ECE276A_PR1.pdf report]
+- LiDAR based SLAM and Factor Graph Optimization [projects/ECE276A_PR2.pdf report]
+- Visual Inertial SLAM [projects/ECE276A_PR3.pdf report]
