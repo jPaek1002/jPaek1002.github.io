@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
-python jem/jemdoc.py index.jemdoc courses.jemdoc experience.jemdoc projects.jemdoc publications.jemdoc 
+find . -type f -name "*.jemdoc" | while read -r file; do
+    if [ -f "$file" ]; then
+        python jem/jemdoc.py "$file"
+    fi
+done

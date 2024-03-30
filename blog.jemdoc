@@ -1,0 +1,6 @@
+# jemdoc: menu{MENU}{blog.html}, nofooter
+== Blog
+~~~
+
+- [blogs/test.jemdoc Test Blog]
+
