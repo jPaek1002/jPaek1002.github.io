@@ -1,7 +1,5 @@
 # jemdoc: menu{MENU}{awards.html}, nofooter
 == Courses
-~~~
-
 == Courses in session (Spring 2024)
 - ECE 171A: Linear Control System 
 - ECE 276B: Planning and Learning in Robotics (Graduate)
@@ -40,4 +38,5 @@
     -- MATH 180B: Introduction to Stochastic Processes I
 - Mathematics (Graduate)
     -- MATH 217: Calculus of Variations
+~~~
 
