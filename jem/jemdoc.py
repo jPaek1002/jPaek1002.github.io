@@ -1463,7 +1463,7 @@ def procfile(f):
           imgblock = True
         
         elif len(g) >= 4 and g[1] == 'img_right':
-          g += ['']*(10 - len(g))
+          g += ['']*(18 - len(g))
           
           if g[4].isdigit():
               g[4] += 'px'
