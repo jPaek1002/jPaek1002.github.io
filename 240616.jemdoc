@@ -6,9 +6,22 @@ Date posted: June 16th, 2024
 
 Post-Finals, Sunday.
 
-One issue with this markup language is that I can't align images anywhere else other than the far left.
+One issue with this markup language is that I can't align images anywhere else other than the far left. 
+I'll probably mess around with the compiler sooner or later.
 ~~~
-{}{img_right}{blogs/240616/award.jpg}{}{450px}{300px}
+{}{img_left}{blogs/240616/award.jpg}{}{450px}{300px}
 
 Finally. I am done. What a quarter. I'll be completely honest, that wasn't too bad other than the last finals week. 
+~~~
+
+~~~
+{}{table}{Schedule for Finals week}
+Sunday | Monday | Tuesday | Wednesday | Thursday | Friday ||
+Bunger | 
+jamir | 
+bunger | 
+Jamir| 
+bunger | 
+jamir | 
+bunger 
 ~~~
