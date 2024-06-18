@@ -1,14 +1,13 @@
 # jemdoc: menu{MENU}{awards.html}, nofooter
 == Courses
-== Courses in session (Spring 2024)
-- DSC 291: 	Topics in Data Science: Mathematical Aspects of Deep Learning
-- ECE 171A: Linear Control System 
-- ECE 276B: Planning and Learning in Robotics (Graduate)
-- MAE 288A: Optimal Control (Graduate)
-- MATH 102: Applied Linear Algebra
-- MATH 140C: Foundations of Real Analysis III
-- MATH 144: Fourier Analysis
-- MATH 294: Mathematics of Finance (Graduate)
+== Courses planned (Fall 2024)
+- CSE 101: Design and Analysis of Algorithms (Audit)
+- ECE 284: Low-power VLSI Implementation for Machine Learning (Maybe)
+- MATH 104A: Number Theory (Maybe)
+- MATH 216A: Mathematical Methods in Data Science I
+- MATH 220A: Complex Analysis I
+- MATH 240A: Real Analysis I
+- MATH 260A: Mathematical Logic I (Audit)
 ~~~
 == Courses taken at UCSD (5 quarters completed so far!)
 - Engineering (Undergraduate)
@@ -19,6 +18,7 @@
     -- ECE 101: Linear Systems Fundamentals
     -- ECE 109: Engineering Probability and Statistics
     -- ECE 158A: Data Networks
+    -- ECE 171A: Linear Control System Theory
     -- ECE 174: Introduction to Linear and Nonlinear Optimization with Applications
     -- ECE 175A: Elements of Machine Intelligence: Pattern Recognition and Machine Learning
     -- ECE 175B: Elements of Machine Intelligence: Probabilistic Reasoning and Graphical Models
@@ -27,17 +27,24 @@
     -- ECE 199: Independent Study for Undergraduates
 - Engineering (Graduate)
     -- CSE 252B: Computer Vision II
+    -- DSC 291: Mathematical Aspects of Deep Learning
     -- ECE 250: Random Processes
     -- ECE 251C: Filter Banks and Wavelets
     -- ECE 276A: Sensing and Estimation in Robotics
+    -- ECE 276B: Planning and Learning in Robotics
     -- ECE 285: Semidefinite and Sum-of-Squares Optimization
+    -- MAE 288A: Optimal Control
 - Mathematics (Undergraduate)
     -- MATH 100A: Abstract Algebra I
     -- MATH 100B: Abstract Algebra II
+    -- MATH 102: Applied Linear Algebra
     -- MATH 140A: Foundations of Real Analysis I
     -- MATH 140B: Foundations of Real Analysis II
+    -- MATH 140C: Foundations of Real Analysis III
+    -- MATH 144: Introduction to Fourier Analysis
     -- MATH 180B: Introduction to Stochastic Processes I
 - Mathematics (Graduate)
     -- MATH 217: Calculus of Variations
+    -- MATH 294: Mathematics of Finance
 ~~~
 
