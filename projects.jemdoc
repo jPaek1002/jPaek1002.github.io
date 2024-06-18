@@ -1,6 +1,9 @@
 # jemdoc: menu{MENU}{projects.html}, nofooter
 == Projects 
 ~~~
+== [https://mathweb.ucsd.edu/~alina/drp.html UCSD Mathemtics Directed Reading Program] with [https://yee172.com/ Qihao Ye (PhD)] (Spring 2024)
+- Spectral Methods for Dimensionality Reduction \[[projects/DRP_Pres.pdf presentation]\] \[[projects/DRP_Report.pdf report]\]
+
 == ECE 276A: Sensing and Estimation in Robotics (Winter 2024)
 - Quaternion based Orientation Tracking \[[projects/ECE276A_PR1.pdf report]\]
 - LiDAR based SLAM and Factor Graph Optimization \[[projects/ECE276A_PR2.pdf report]\]
