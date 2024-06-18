@@ -4,12 +4,12 @@
 == [https://mathweb.ucsd.edu/~alina/drp.html UCSD Mathemtics Directed Reading Program] with [https://yee172.com/ Qihao Ye (PhD)] (Spring 2024)
 - Spectral Methods for Dimensionality Reduction \[[projects/DRP_Pres.pdf presentation]\] \[[projects/DRP_Report.pdf report]\]
 
-== ECE 276A: Sensing and Estimation in Robotics (Winter 2024)
+== [https://natanaso.github.io/ece276a/ ECE 276A: Sensing and Estimation in Robotics] (Winter 2024)
 - Quaternion based Orientation Tracking \[[projects/ECE276A_PR1.pdf report]\]
 - LiDAR based SLAM and Factor Graph Optimization \[[projects/ECE276A_PR2.pdf report]\]
 - Visual Inertial SLAM \[[projects/ECE276A_PR3.pdf report]\]
 
-== ECE 276B: Planning and Learning in Robotics (Spring 2024)
+== [https://natanaso.github.io/ece276b/ ECE 276B: Planning and Learning in Robotics] (Spring 2024)
 - Dynamic Programming for Optimal Control \[[projects/ECE276B_PR1.pdf report]\]
 - Motion Planning in 3-D Environments \[[projects/ECE276B_PR2.pdf report]\]
 - Safe Trajectory Tracking with Optimal Control \[[projects/ECE276B_PR3.pdf report]\]
