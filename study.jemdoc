@@ -1,7 +1,5 @@
 # jemdoc: menu{MENU}{study.html}, nofooter
 == Self-Study Solutions 
-
-~~~
 This is where I post the solutions for the self-studying I'm doing (so I stay accountable). 
 Disclaimer: I don't know if any of my answers are correct.
 
@@ -12,4 +10,3 @@ Using course notes and homeworks from [https://mathweb.ucsd.edu/~ssam/old/22F-19
 - Curves and Surfaces by Manfredo P Do Carmo \n
 Recommended by Professor Luca Spolaor to get started on differential geometry.
 -- [selfstudy/CaS/ch1.pdf Chapter 1 solutions (WIP)]
-~~
