@@ -1,12 +1,20 @@
 # jemdoc: menu{MENU}{awards.html}, nofooter
 == Courses
+== Courses taken during my 1 year of masters
+- Engineering (Graduate)
+    -- ECE 269: Linear Algebra with Applications
+    -- ECE 271A: Statistical Learning
+    -- ECE 272A: Linear Dynamical Systems
+    -- ECE 273: Convex Optimization with Applications
+    -- ECE 275A: Parameter Estimation
+- Math (Graduate)
+    -- MATH 216C: Mathematical Methods for Data Science (Statistical Optimal Transport)
+    -- MATH 240A: Real Analysis 1 (Measure Theory)
+    -- MATH 240A: Real Analysis 2 (Functional Analysis)
+    -- MATH 240A: Real Analysis 3 (Fourier Analysis and Distribution Theory)
+    -- MATH 277: Smooth and Non-Smooth Optimization
 
-== Courses planned (Fall 2024)
-- MATH 240B: Real Analysis II
-- MATH 277A: Nonsmooth Optimization
-- ECE 269: Linear Algebra with Applications
-~~~
-== Courses taken at UCSD (2 years completed so far!)
+== Courses taken at during my 2 years of undergrad
 - Engineering (Undergraduate)
     -- ECE 5: Introduction to Electrical and Computer Engineering
     -- ECE 35: Introduction to Analog Design
@@ -42,7 +50,6 @@
     -- MATH 180B: Introduction to Stochastic Processes I
 - Mathematics (Graduate)
     -- MATH 217: Calculus of Variations
-    -- MATH 240A: Real Analysis I
     -- MATH 294: Mathematics of Finance
 ~~~
 
