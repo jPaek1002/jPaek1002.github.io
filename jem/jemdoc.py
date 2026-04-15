@@ -1332,6 +1332,7 @@ def procfile(f):
   infoblock = False
   imgblock = False
   tableblock = False
+  youtubeblock = False
   while 1: # wait for EOF.
     p = pc(f)
 
@@ -1398,6 +1399,11 @@ def procfile(f):
         tableblock = False
         nl(f)
         continue
+      elif youtubeblock:
+        out(f.outf, '</td></tr></table>\n')
+        youtubeblock = False
+        nl(f)
+        continue
       else:
         if pc(f) == '{':
           l = allreplace(nl(f))
@@ -1440,7 +1446,7 @@ def procfile(f):
           # handles
           # {}{img_left}{source}{alttext}{width}{height}{linktarget}.
           g += ['']*(7 - len(g))
-          
+
           if g[4].isdigit():
             g[4] += 'px'
 
@@ -1461,6 +1467,29 @@ def procfile(f):
             out(f.outf, '</a>')
           out(f.outf, '&nbsp;</td>\n<td align="left">')
           imgblock = True
+
+        elif len(g) >= 3 and g[1] == 'youtube':
+          # handles
+          # {}{youtube}{URL_OR_ID}{width}{height}
+          g += ['']*(5 - len(g))
+          url = g[2].strip()
+          # Extract video ID from various YouTube URL formats.
+          vid = url
+          m_yt = re.search(r'(?:youtu\.be/|youtube\.com/(?:watch\?v=|embed/|shorts/))([A-Za-z0-9_-]{11})', url)
+          if m_yt:
+            vid = m_yt.group(1)
+          width = g[3] if g[3] else '560'
+          height = g[4] if g[4] else '315'
+          if width.isdigit():
+            width += 'px'
+          if height.isdigit():
+            height += 'px'
+          out(f.outf, '<table class="imgtable"><tr><td>\n')
+          out(f.outf, '<iframe width="%s" height="%s" src="https://www.youtube.com/embed/%s" ' % (width, height, vid))
+          out(f.outf, 'frameborder="0" allowfullscreen></iframe>\n')
+          out(f.outf, '&nbsp;</td>\n<td align="left">')
+          youtubeblock = True
+
         else:
           raise JandalError("couldn't handle block", f.linenum)
 
