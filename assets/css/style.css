@@ -1,0 +1,268 @@
+/* ===== Jay Paek — personal site ===== */
+
+:root {
+  --bg: #ffffff;
+  --sidebar-bg: #f6f6f6;
+  --border: #dddddd;
+  --text: #222222;
+  --muted: #666666;
+  --accent: #224b8d;
+  --accent-light: #527bbd;
+  --rule: #aaaaaa;
+  --maxw: 820px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/* ===== Layout ===== */
+.layout {
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.sidebar {
+  flex: 0 0 200px;
+  width: 200px;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  padding: 1.4em 1em;
+  position: sticky;
+  top: 0;
+  align-self: stretch;
+  min-height: 100vh;
+}
+
+.sidebar-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-name {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: var(--accent);
+  text-decoration: none;
+  line-height: 1.2;
+}
+.site-name:hover { text-decoration: none; border: none; }
+
+.nav-burger {
+  display: none;
+  cursor: pointer;
+  font-size: 1.3em;
+  color: var(--accent-light);
+  user-select: none;
+}
+
+.site-nav {
+  margin-top: 1.2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-nav a {
+  display: block;
+  padding: 0.3em 0;
+  color: var(--accent-light);
+  text-decoration: none;
+  border: none;
+}
+.site-nav a:hover { color: var(--accent); border: none; }
+.site-nav a.current {
+  color: #022b6d;
+  font-weight: bold;
+  border-bottom: 1px solid var(--rule);
+}
+
+.content {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 2em 2.4em;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ===== Headings ===== */
+.page-head {
+  margin-bottom: 1.4em;
+  padding-bottom: 0.3em;
+  border-bottom: 3px double var(--rule);
+}
+.page-head h1 { margin: 0; border: none; padding: 0; }
+
+h1, h2, h3, h4 {
+  color: var(--accent-light);
+  line-height: 1.2;
+}
+h1 { font-size: 1.9em; }
+h2 {
+  font-size: 1.35em;
+  margin-top: 1.4em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid var(--rule);
+}
+h3 { font-size: 1.12em; margin-top: 1.2em; }
+
+/* ===== Text ===== */
+p { margin: 0 0 0.85em; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { border-bottom: 1px dotted gray; }
+
+strong { font-weight: bold; }
+em { font-style: italic; }
+
+ul, ol { margin: 0.2em 0 0.9em; padding-left: 1.4em; }
+ul { list-style-type: square; }
+li { margin-bottom: 0.15em; }
+li > ul, li > ol { margin: 0.1em 0 0.3em; }
+
+code, tt {
+  font-family: Menlo, Monaco, monospace;
+  font-size: 0.88em;
+  background: #ffffdd;
+  padding: 0 2px;
+}
+pre {
+  background: #f6f6f6;
+  border: 1px solid silver;
+  padding: 0.6em 0.8em;
+  overflow-x: auto;
+  font-size: 0.9em;
+}
+pre code { background: none; padding: 0; }
+
+blockquote {
+  margin: 1.2em 0;
+  padding: 0.4em 1em;
+  border-left: 3px solid var(--accent-light);
+  background: #fafafa;
+  color: #333;
+  font-style: italic;
+}
+
+hr { border: none; border-top: 1px solid var(--border); margin: 1.6em 0; }
+
+/* ===== Profile (home) ===== */
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.4em;
+  align-items: flex-start;
+  margin-bottom: 1em;
+}
+.profile img {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+}
+.profile .profile-info { flex: 1 1 240px; }
+
+/* ===== Blog index ===== */
+.post-list { list-style: none; padding: 0; }
+.post-list li {
+  display: flex;
+  gap: 0.8em;
+  padding: 0.35em 0;
+  border-bottom: 1px dotted var(--border);
+}
+.post-list .post-date {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ===== Posts ===== */
+.post-meta { color: var(--muted); font-style: italic; margin-top: 0.3em; }
+.post-back { margin-top: 2.5em; }
+
+/* Floated figure (was jemdoc img_left) */
+.imgfloat {
+  float: left;
+  margin: 0.3em 1.2em 0.8em 0;
+  max-width: 50%;
+}
+.imgfloat img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+}
+.imgfloat figcaption { font-size: 0.85em; color: var(--muted); margin-top: 0.3em; }
+.clear { clear: both; }
+
+/* Responsive video / youtube embed */
+.video {
+  position: relative;
+  max-width: 480px;
+  margin: 1.2em 0;
+}
+.video.shorts { max-width: 320px; }
+.video::before { content: ""; display: block; padding-top: 56.25%; }
+.video.shorts::before { padding-top: 177.78%; }
+.video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ===== Tables ===== */
+table {
+  border-collapse: collapse;
+  margin: 1.2em 0;
+  font-size: 0.9em;
+}
+th, td {
+  border: 1px solid gray;
+  padding: 3px 8px;
+  text-align: center;
+}
+thead th, tr.heading th {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+.table-scroll { overflow-x: auto; }
+
+/* ===== Footer ===== */
+.site-footer {
+  margin-top: 4em;
+  padding-top: 0.6em;
+  border-top: 1px solid #c0c0c0;
+  font-size: 0.8em;
+  color: #b0b0b0;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 720px) {
+  .layout { flex-direction: column; }
+  .sidebar {
+    flex-basis: auto;
+    width: 100%;
+    min-height: 0;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 0.8em 1em;
+  }
+  .nav-burger { display: block; }
+  .site-nav { display: none; }
+  .nav-toggle:checked ~ .layout .site-nav { display: flex; }
+  .content { padding: 1.4em 1.2em; }
+  .imgfloat { float: none; max-width: 100%; margin: 0.8em 0; }
+}
