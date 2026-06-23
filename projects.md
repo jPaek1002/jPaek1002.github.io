@@ -4,6 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
+## Independent Projects
+
+- Stuff
+
 ## Final Presentation for MATH 216C: Numerical Methods in Data Science (Spring 2025)
 
 - Landmark Localization using Gaussian Flow \[[presentation]({{ '/projects/MATH216C.pdf' | relative_url }})\]

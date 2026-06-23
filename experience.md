@@ -11,7 +11,7 @@ permalink: /experience/
 
 ## Research
 
-- Independent Undergraduate Researcher @ [Adaptive Hybrid Dynamics Laboratory](https://poveda.ucsd.edu/lab) (June 2023 – August 2024)
+- Independent Undergraduate Researcher @ [Adaptive Hybrid Dynamics Laboratory](https://poveda.ucsd.edu/home) (June 2023 – August 2024)
   - [Bessel Function Analysis of Nesterov's ODE in N-Player Quadratic Games](https://arxiv.org/abs/2602.16982)
 - Participant of [Directed Reading Program](https://mathweb.ucsd.edu/~alina/drp.html) @ UCSD Mathematics (Spring 2024) with [Qihao Ye (PhD)](https://yee172.com/) (Spring 2024)
   - Performed research and simulations in Spectral Methods for Dimensionality Reduction \[[presentation]({{ '/projects/DRP_Pres.pdf' | relative_url }})\] \[[report]({{ '/projects/DRP_Report.pdf' | relative_url }})\]
