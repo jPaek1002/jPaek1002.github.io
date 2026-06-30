@@ -6,7 +6,7 @@ permalink: /projects/
 
 ## Independent Projects
 
-- Stuff
+- A Calibrated Initialization for Gaussian Mixture Layers [pdf]({{ '/projects/KUMAR.pdf' | relative_url }})
 
 ## Final Presentation for MATH 216C: Numerical Methods in Data Science (Spring 2025)
 
