@@ -34,10 +34,18 @@ nav:
     url: /publications/
   - title: Resources
     url: /resources/
-  - title: Blog
+  - title: Life Blog
     url: /blog/
+  - title: Research Blog
+    url: /research/
   - title: CV
     url: /FullCV.pdf
+
+# Collections
+collections:
+  research:
+    output: true
+    permalink: /research/:year/:month/:day/
 
 # Default layouts
 defaults:
@@ -46,6 +54,12 @@ defaults:
       type: posts
     values:
       layout: post
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research
+      math: true
 
 # Files/dirs Jekyll should not copy into the build
 exclude:

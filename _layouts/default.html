@@ -6,6 +6,12 @@
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  {% if page.math %}
+  <script>
+    MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]'], ['$$', '$$']] } };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  {% endif %}
   {% seo %}
 </head>
 <body>
@@ -23,6 +29,7 @@
           {% if item.url == '/' and current == '/' %}{% assign is_current = true %}{% endif %}
           {% if item.url != '/' and current contains item.url %}{% assign is_current = true %}{% endif %}
           {% if item.url == '/blog/' and page.layout == 'post' %}{% assign is_current = true %}{% endif %}
+          {% if item.url == '/research/' and page.layout == 'research' %}{% assign is_current = true %}{% endif %}
           <a href="{{ item.url | relative_url }}"{% if is_current %} class="current"{% endif %}>{{ item.title }}</a>
         {% endfor %}
       </nav>

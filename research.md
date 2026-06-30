@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Life Blog
-permalink: /blog/
+title: Research Blog
+permalink: /research/
 ---
 
-A place where I write out and organize my thoughts and schedules.
+Notes, ideas, and write-ups from my research.
 
 <ul class="post-list">
-{% for post in site.posts %}
+{% assign research_posts = site.research | sort: "date" | reverse %}
+{% for post in research_posts %}
   <li>
     <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
